@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "target": "ES5",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "jsx": "preserve",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./example/src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
